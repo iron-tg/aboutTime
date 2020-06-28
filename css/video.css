@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../image/vhoa0.jpg");
+    background-size: 100%;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+ul{
+    background: gray;
+    display: flex;
+    margin:0;
+    padding: 0;
+    margin-right: 0;
+    opacity: 0.85;
+    
+}
+li{
+    font-size: 25px;
+    margin-right: 70px;
+    margin: 8px;
+    padding-bottom: 2px;
+    padding: 10px;
+    display: inline-block;
+    
+}
+li:first-child{
+    margin-left: 0;
+}
+li:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#title_image{
+    padding-top: 5%;
+    border:1px solid rgb(204, 116, 57);
+    border-style: double;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-width: 20px;
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+}
+article{
+    border:1px solid rgb(34, 103, 177);
+    background-color:#EFF7FF;
+    margin: 80px;
+
+}
+section{
+    margin: 0;    
+}
+#image_section{
+    display: flex;
+    flex-direction: row;
+    margin:2em;
+}
+
+article #image_section div{
+    flex: 1;
+    text-align: center;
+    margin: 1.25em;
+}
+
+article #image_section div p{
+    font-size: 2em;
+}
+
+#second{
+    display: flex;
+    flex-direction: row;
+    margin:2em;
+}
+
+article #second div{
+    flex: 1;
+    text-align: center;
+    margin: 1.25em;
+}
+
+article #second div p{
+    font-size: 2em;
+}
+
+footer{
+    border:1px solid rgb(204, 116, 57);
+    border-style: double;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    margin: 1.25em;
+    border-width: 20px;
+}
+
+#title_image{
+    font-size: 40px;
+    text-indent: 60px;
+}
+#Top{
+    color: rgb(144, 194, 27);
+    font-size: 50px;
+}
+#title_image .more_info{
+    display: inline;
+    margin: auto;
+    color: white;
+}
+.more_info li{
+    margin:auto;
+}
+.more_info .descrition{
+    display: none;
+}
+.descrition p{
+    padding-left: 80px;
+}
+.more_info li:hover + span{
+    display: block;
+}
+/*stone*/
+#stone{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    text-indent: 2em;
+    font-size: 1.5em;
+    font-family: 'Acme', sans-serif;
+}
+#stone div p{
+    margin-bottom: 10px;
+    border:3px solid #a9c9e2;background:#e8f5fe
+}
+#stone div p::first-letter{
+    font-size: 2em;
+}
